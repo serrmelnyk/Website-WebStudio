@@ -6,7 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WebStudio</title>
-	<link rel="stylesheet" href="./css/styles.css">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -15,8 +21,8 @@
 		<nav>
 			<a href="./index.html" class="logo"><span>Web</span> Studio</a>
 			<ul class="site-nav">
-				<li><a href="/index.html" class="link">Студия</a></li>
-				<li><a href="/portfolio.html" class="link">Портфолио</a></li>
+				<li><a href="./index.html" class="link current">Студия</a></li>
+				<li><a href="./portfolio.html" class="link">Портфолио</a></li>
 				<li><a href="" class="link">Контакты</a></li>
 			</ul>
 		</nav>
@@ -65,29 +71,29 @@
 		<!-- Чем мы занимаемся (section_3) -->
 		<section class="section">
 			<h2 class="section-title">Чем мы занимаемся</h2>
-			<ul>
+			<ul class="work-list">
 				<li>
 					<img src="./img/section_3/desktop.jpg" alt="Десктопные приложения" width="370">
-					<h3>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
+					<h3 class="title">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
 				</li>
 				<li>
 					<img src="./img/section_3/mobile.jpg" alt="Мобильные приложения" width="370">
-					<h3>МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
+					<h3 class="title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
 				</li>
 				<li>
 					<img src="./img/section_3/designer.jpg" alt="Дизайнерские решения" width="370">
-					<h3>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
+					<h3 class="title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
 				</li>
 			</ul>
 		</section>
 		<!-- Наша команда (section_4) -->
 		<section class="section">
 			<h2 class="section-title">Наша команда</h2>
-			<ul>
+			<ul class="team-list">
 				<li>
 					<img src="./img/section_4/Николай_Кучеренко.jpg" alt="Николай Кучеренко" width="270">
-					<h3>Николай Кучеренко</h3>
-					<p>Product Designer</p>
+					<h3 class="title">Николай Кучеренко</h3>
+					<p class="text">Product Designer</p>
 					<ul>
 						<li>
 							<a href=""><img src="./img/section_4/instagram.svg" alt="Иконка instagram"></a>
@@ -105,8 +111,8 @@
 				</li>
 				<li>
 					<img src="./img/section_4/Ольга_Иванова.jpg" alt="Ольга Иванова" width="270">
-					<h3>Ольга Иванова</h3>
-					<p>Frontend Developer</p>
+					<h3 class="title">Ольга Иванова</h3>
+					<p class="text">Frontend Developer</p>
 					<ul>
 						<li>
 							<a href=""><img src="./img/section_4/instagram.svg" alt="Иконка instagram"></a>
@@ -124,8 +130,8 @@
 				</li>
 				<li>
 					<img src="./img/section_4/Андрей_Шевченко.jpg" alt="Андрей Шевченко" width="270">
-					<h3>Андрей Шевченко</h3>
-					<p>Marketing</p>
+					<h3 class="title">Андрей Шевченко</h3>
+					<p class="text">Marketing</p>
 					<ul>
 						<li>
 							<a href=""><img src="./img/section_4/instagram.svg" alt="Иконка instagram"></a>
@@ -143,8 +149,8 @@
 				</li>
 				<li>
 					<img src="./img/section_4/Иван_Николаев.jpg" alt="Иван Николаев" width="270">
-					<h3>Иван Николаев</h3>
-					<p>UI Designer</p>
+					<h3 class="title">Иван Николаев</h3>
+					<p class="text">UI Designer</p>
 					<ul>
 						<li>
 							<a href=""><img src="./img/section_4/instagram.svg" alt="Иконка instagram"></a>
@@ -165,7 +171,7 @@
 		<!-- Постоянные клиенты (section_5) -->
 		<section class="section">
 			<h2 class="section-title">Постоянные клиенты</h2>
-			<ul>
+			<ul class="clients-list">
 				<li><a href=""><img src="./img/section_5/client_1.svg" alt="Клиент" width="170"></a></li>
 				<li><a href=""><img src="./img/section_5/client_2.svg" alt="Клиент" width="170"></a></li>
 				<li><a href=""><img src="./img/section_5/client_3.svg" alt="Клиент" width="170"></a></li>
@@ -175,30 +181,29 @@
 			</ul>
 		</section>
 	</main>
-	<footer>
-		<div>
-			<ul>
+
+	<footer class="page-footer">
+		<div class="contacts">
+			<a href="./index.html" class="contacts-logo"><span>Web</span> Studio</a>
+			<ul class="contacts-list">
 				<li>
-					<a href="/"><span>Web</span> Studio</a>
+					<p class="address">г. Киев, пр-т Леси Украинки, 26</p>
 				</li>
 				<li>
-					<p>г. Киев, пр-т Леси Украинки, 26</p>
+					<a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
 				</li>
 				<li>
-					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-				</li>
-				<li>
-					<a href="tel:+380961111111">+38 096 111 11 11</a>
+					<a href="tel:+380961111111" class="phone">+38 096 111 11 11</a>
 				</li>
 			</ul>
 		</div>
-		<div>
-			<p>ПРИСОЕДИНЯЙТЕСЬ</p>
-			<ul>
-				<li><a href=""><img src="./img/footer/instagram.svg" alt="Иконка instagram"></a></li>
-				<li><a href=""><img src="./img/footer/twitter.svg" alt="Иконка twitter"></a></li>
-				<li><a href=""><img src="./img/footer/facebook.svg" alt="Иконка facebook"></a></li>
-				<li><a href=""><img src="./img/footer/linkedin.svg" alt="Иконка linkedin"></a></li>
+		<div class="socials">
+			<p class="socials-title">ПРИСОЕДИНЯЙТЕСЬ</p>
+			<ul class="socials-list">
+				<li><a href="" class="icon"><img src="./img/footer/instagram.svg" alt="Иконка instagram"></a></li>
+				<li><a href="" class="icon"><img src="./img/footer/twitter.svg" alt="Иконка twitter"></a></li>
+				<li><a href="" class="icon"><img src="./img/footer/facebook.svg" alt="Иконка facebook"></a></li>
+				<li><a href="" class="icon"><img src="./img/footer/linkedin.svg" alt="Иконка linkedin"></a></li>
 			</ul>
 		</div>
 	</footer>
