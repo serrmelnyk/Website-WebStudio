@@ -1,0 +1,24 @@
+.card {}
+
+.card .title {
+	ont-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-text-color);
+}
+
+.card .subtitle {
+	font-size: 16px;
+	line-height: 1.87;
+}
+
+.card .text {
+	width: 370px;
+
+	font-size: 18px;
+	line-height: 1.55;
+	color: var(--white-text-color);
+
+	background: rgba(33, 150, 243, 0.9);
+}

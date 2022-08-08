@@ -1,13 +1,21 @@
 /* hero */
 
 .hero-title {
+	font-weight: 900;
 	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
 }
 
 .hero-button {
 	padding: 10px 32px;
+
+	font-weight: 700;
 	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
 	color: var(--white-text-color);
+
 	background-color: var(--accent-color);
 	border-radius: 4px;
 }
@@ -20,5 +28,44 @@
 }
 
 .features-list .title {
+	font-weight: 700;
+	line-height: 1.14;
 	color: var(--primary-text-color);
 }
+
+/* Особенности (section_3) */
+
+.work-list .title {
+	max-width: 370px;
+	padding: 27px 0px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--white-text-color);
+	text-align: center;
+
+	background: rgba(47, 48, 58, 0.8);
+}
+
+/* Особенности (section_4) */
+
+.section.background {
+	background: var(--secondary-background-color);
+}
+
+.team-list .title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	color: var(--primary-text-color);
+}
+
+.team-list .text {
+	font-size: 16px;
+	line-height: 1.18;
+}
+
+.team-list .icon {}
+
+/* Особенности (section_5) */
